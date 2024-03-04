@@ -1,0 +1,10 @@
+// Start and run Flask Server
+flask --app flaskr run --debug
+
+//create pyproject.toml file for packaging to generate wheel
+
+//create wheel to paackage and distribute
+pip install -e .
+
+//testing package
+pip install pytest coverage
